@@ -1301,7 +1301,14 @@ color: #f00;
     text-align: center;
      padding-bottom: 60px;
 }
- .titlepage h2 {
+ .titlepage h1 {
+     padding: 0;
+     font-weight: 500;
+     color: #000;
+     line-height: 60px;
+     font-size: 60px;
+}
+.titlepage h2 {
      padding: 0;
      font-weight: 500;
      color: #000;
@@ -1320,6 +1327,10 @@ color: #f00;
      flex-wrap: wrap;
      text-align: center;
 }
+.team-heading {
+  margin-top: 120px;
+}
+
  .testimonial .clients_box {
      text-align: center;
 }
